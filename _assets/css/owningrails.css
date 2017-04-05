@@ -1,0 +1,52 @@
+body {
+  padding-top: 50px;
+  position: relative;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: dotted 2px #eee;
+
+  /* Fix anchor offset caused by body padding */
+  padding-top: 60px;
+  margin-top: -40px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+  color: #666;
+}
+
+footer a {
+  color: inherit;
+}
+
+.thumbnail {
+  height: 280px;
+}
+
+.thumbnail h3 {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.thumbnail .code {
+  margin-bottom: 5px;
+}
+
+.thumbnail .code label {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.thumbnail a img:hover {
+  box-shadow: 0 0 5px #d33;
+}
+
+h3 code {
+  background-color: transparent;
+  color: inherit;
+}

@@ -1,0 +1,64 @@
+PATH
+  remote: ../..
+  specs:
+    mini-rails (0.0.1)
+      rack (~> 2.x)
+      sprockets (~> 3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.10.0)
+    concurrent-ruby (1.0.2)
+    daemons (1.2.3)
+    eventmachine (1.2.0.1)
+    execjs (2.7.0)
+    faye-websocket (0.10.7)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    ffi (1.9.14)
+    listen (3.1.1)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9.7)
+    minitest (5.9.0)
+    rack (2.0.1)
+    rake (10.5.0)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
+      ffi (>= 0.5.0)
+    rerun (0.11.0)
+      listen (~> 3.0)
+    sass (3.4.22)
+    sprockets (3.6.3)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sqlite3 (1.3.11)
+    thin (1.7.0)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    websocket-driver (0.6.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.12)
+  coffee-script
+  faye-websocket
+  listen (= 3.1.1)
+  mini-rails!
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  rerun
+  sass
+  sqlite3
+  thin
+
+BUNDLED WITH
+   1.13.6

@@ -1,0 +1,17 @@
+PATH
+  remote: ../..
+  specs:
+    mini-rails (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mini-rails!
+
+BUNDLED WITH
+   1.12.5
